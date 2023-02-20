@@ -10,7 +10,6 @@
   color: #ffffff;
   margin: 0 0 32px 0;
   padding: 0;
-  z-index: 1;
 }
 @media screen and (max-width: 767px) {
   .cover__title {

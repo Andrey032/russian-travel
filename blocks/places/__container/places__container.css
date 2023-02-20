@@ -1,4 +1,18 @@
 .places__container {
   margin: 0 auto;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__container {
+    row-gap: 73px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .places__container {
+    row-gap: 50px;
+  }
 }
