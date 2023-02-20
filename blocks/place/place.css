@@ -22,11 +22,6 @@
 @media screen and (max-width: 767px) {
   .place {
     row-gap: 32px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .place {
-    max-width: 320px;
     grid-template-columns: auto;
     grid-template-areas:
       "title"
